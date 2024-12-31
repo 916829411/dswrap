@@ -1,1 +1,1 @@
-export * from './LinkedList';
+export * from './linked-list.ts';

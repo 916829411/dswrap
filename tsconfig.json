@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "lib": ["ES2021"],
+    "lib": ["ES2015"],
     "module": "ESNext",
     "noEmit": true,
     "strict": true,
@@ -9,6 +9,7 @@
     "resolveJsonModule": true,
     "moduleResolution": "bundler",
     "useDefineForClassFields": true,
+    "downlevelIteration": true,
     "allowImportingTsExtensions": true
   },
   "include": ["src"]
